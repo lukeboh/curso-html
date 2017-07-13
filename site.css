@@ -77,6 +77,7 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
@@ -119,4 +120,47 @@ nav a {
 
 .linkedin {
 	background-image: url(linkedin.png);
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+    display: block;
+}
+
+main {
+    float: left;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+}
+
+main {
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    width: 15%;
+}
+
+.minha-foto, .navegacao-site {
+    box-sizing: border-box;
+}
+
+.minha-foto, .navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.rodape-pagina {
+    clear: both;
 }
